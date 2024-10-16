@@ -24,7 +24,7 @@ app.use(bodyParser.json({ limit: "30mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 
 /* CORS SETUP WITH WHITELIST */
-const whitelist = ['http://Raghav_organisation.com', 'http://  LearnHub.com'];
+const whitelist = ['http://Raghav_organisation.com', 'http://LearnHub.com'];
 const corsOptions = {
   origin: (origin, callback) => {
     if (whitelist.indexOf(origin) !== -1 || !origin) {
