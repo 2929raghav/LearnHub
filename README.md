@@ -11,3 +11,6 @@ Frontend developers focused on building the UI using React.js, ensuring real-tim
 
 **Problem Solved**
 The platform automates descriptive answer grading using LLMs, eliminating manual grading inefficiencies. It also provides real-time progress tracking and analytics to enhance learning experiences. The scalable architecture ensures seamless handling of complex course structures, while personalized learning paths adapt based on student performance, improving educational outcomes.
+
+**Security**
+For authentication, a stateless approach is used with JWT token and bcrypt for password hashing. Cross-origin resource sharing (CORS) is enabled with a whitelist to ensure secure API access.
